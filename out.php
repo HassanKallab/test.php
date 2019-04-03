@@ -7,7 +7,7 @@ $callerId=$_REQUEST["callerId"];
 $pos1 = strpos($to,":");
 $pos2 = strpos($to,"@");
 $tosip=substr($to,$pos1+1,$pos2-$pos1-1);
-if(strlen($tosip) == 4)
+if(strlen($tosip) == 3)
 {
 /**Extracting sip endpoint**/
     $pos2 = strpos($to,":",strpos($to,":")+1);
