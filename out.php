@@ -12,7 +12,7 @@ if(strlen($tosip) == 3)
 /**Extracting sip endpoint**/
     $pos2 = strpos($to,":",strpos($to,":")+1);
     $tosip=substr($to,$pos1+1,$pos2-$pos1-1);
- 
+
     ?>
     <Response>
         <Dial>
